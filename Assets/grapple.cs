@@ -16,7 +16,7 @@ public class grapple : MonoBehaviour
         lr = GetComponent<LineRenderer>();
 
         StopGrapple();
-        Time.timeScale = 1f;
+        
     }
 
 
@@ -24,7 +24,7 @@ public class grapple : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Time.timeScale = 1f;
+            
             StartGrapple();
             
         }
